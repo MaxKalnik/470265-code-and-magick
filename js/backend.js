@@ -47,7 +47,7 @@
       var div = document.createElement('div');
       div.style = 'z-index: 999; position: absolute; margin: 0; left: 0; top: 0; text-align: center; color: red; background-color: #fff; font-size: 30px;';
       div.textContent = errorMessage;
-      document.body.insertAdjacteElement('afterbegin', div);
+      document.body.insertAdjacentElement('afterbegin', div);
     }
   };
 })();
